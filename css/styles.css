@@ -1,0 +1,28 @@
+
+
+/* general styles */
+
+body{
+    background-image: url(../img/BrickHeart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+header {
+    margin: auto;
+    padding: 3.5%;
+    border: solid white 1px;
+}
+
+/* main */
+
+
+/* footer */
+
