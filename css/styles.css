@@ -1,24 +1,22 @@
 
-
 /* general styles */
 
-body{
-    background-image: url(../img/BrickHeart.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 h1 {
     color: #fff;
-    font-size: 5em;
+    font-size: 4em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* header */
+
 header {
-    margin: auto;
-    padding: 3.5%;
-    border: solid white 1px;
+    background-image: url(../img/BrickHeart.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;    
+    
 }
 
 /* main */
