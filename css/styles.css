@@ -1,6 +1,11 @@
 
 /* general styles */
-
+body {
+    background-image: url(../img/BrickHeart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;   
+}
 
 h1 {
     color: #fff;
@@ -8,19 +13,54 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 1.1em;
+}
+
 /* header */
 
 header {
-    background-image: url(../img/BrickHeart.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;    
-    
+    border: solid 5px #fff;
+    height: 20%;
+    margin: 1em;
+    padding: 2em;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav > ul > li {
+    display: flex;
+    text-decoration: none;
+}
+
+nav > ul > li > a {
+    color: #fff;
+
 }
 
 /* main */
+main > p {
+    border: solid 5px #fff;
+    margin: 1em;
+    padding: 1em;
+}
 
 
 /* footer */
+footer {
+    bottom: 0;
+    border-top: solid 5px #fff;
+    /* display: block; */
+    position: absolute;
+    width: 100%;
+}
 
+footer > a {
+    display: inline-block;
+    text-align: center;
+}
